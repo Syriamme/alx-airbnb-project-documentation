@@ -49,7 +49,7 @@ The backend supports the following features:
 - **File Storage:** AWS S3/Cloudinary for images.
 - **Email Service:** SendGrid/Mailgun for notifications.
 - **Error Handling:** Global error handling with proper logging.
-
+fe
 ---
 
 ## 🚀 Getting Started
