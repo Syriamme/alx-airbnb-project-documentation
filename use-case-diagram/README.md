@@ -1,32 +1,33 @@
 # Use Case Diagram for Airbnb Clone
+Use case diagram for Airbnb Clone is a visual representation of all the actors and the use cases involved in the system.
 
 ## Overview
-This **Use Case Diagram** represents the interactions between different **actors** (users and external systems) and the **Airbnb Clone backend system**. It visualizes the system's core functionalities and how actors interact with those functionalities.
+This is a simplified **Use Case Diagram** that depicts the relationships between the **actors** or the users and external systems and the **Airbnb Clone backend system**. It helps to depict the major activities that a system implements and actors engaging with those activities.
 
 ## Key Features Represented
 1. **Actors**:
    - **Guest**: A user booking properties.
    - **Host**: A user listing properties.
    - **Admin**: A user managing the platform.
-   - **Payment Gateway**: External service handling payments.
+   - **Payment Gateway**: Third-party service provider who accepts payments.
 
 2. **Use Cases**:
-   - **User Registration & Login**: Guest or host registering and logging in.
-   - **Profile Management**: Allowing users to update their profile information.
-   - **Search & Filter Properties**: Searching for available properties based on user criteria.
-   - **Create/Manage Property Listings**: Hosts adding or managing property listings.
-   - **Book Property**: Guest booking a property for a stay.
-   - **Make Payment**: Processing payment via external gateway.
-   - **Leave Reviews**: Guests leaving reviews for properties after a stay.
-   - **Admin Functions**: Admin managing users, properties, and bookings.
+   - **User Registration & Login**: Creating an account for a guest or a host and having the user log in.
+   - **Profile Management**: Enabling the users to change their profile details.
+   - **Search & Filter Properties**: Looking for available properties according to users’ specifications.
+   - **Create/Manage Property Listings**: Hosts creating or editing property listings.
+   - **Book Property**: A person who books an accommodation for a particular period of time.
+   - **Make Payment**: Payment processing through an external gateway.
+   - **Leave Reviews**: Owners’ feedbacks and evaluations of the properties after receiving guests.
+   - **Admin Functions**: Admin handling users, properties, and bookings.
 
 ## How to Read the Diagram
-- **Actors** are placed **outside** the system boundary (the rectangle).
-- **Use cases** are inside the system boundary and represent the actions the system can perform.
-- **Lines** connect actors to use cases to show interactions.
+**Actors** are positioned **outside** the right rectangle.
+**Use cases** are inside the system boundary and describe the tasks the system can accomplish.
+**Lines** link actors and use cases to demonstrate interactions.
 
 ## Dependencies
-This diagram is a part of the documentation to understand the overall system flow and interactions in the Airbnb Clone backend project.
+This diagram is in the documentation to get a complete picture of the system and how the various components work in the Airbnb Clone backend project.
 
 ## Purpose
-This diagram helps developers and stakeholders understand the system's functionality at a high level and serves as a blueprint for the backend design.
+In essence, this diagram is useful in helping the developers as well as other stakeholders to have an overview of how the system is expected to operate at a higher level as well as being an important guide in the actual backend architecture of the system.
