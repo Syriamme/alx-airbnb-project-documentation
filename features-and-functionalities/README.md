@@ -1,67 +1,43 @@
-# Airbnb Clone Backend Documentation
+# Documenting Project Features and Functionalities for Airbnb Clone
 
-This repository contains the backend implementation and project documentation for the **Airbnb Clone** application. The backend is designed to handle server-side logic, database management, and API integration for the application.
+## Overview
+This document outlines the **key features and functionalities** of the **Airbnb Clone backend system**, providing a detailed breakdown of the core operations required for the system to function effectively.
 
----
+## Key Features
 
-## 📖 Features and Functionalities
+### 1. **User Management**
+   - **User Registration**: Users can sign up as guests or hosts with secure authentication (e.g., JWT).
+   - **User Login**: Login via email/password, with options for OAuth (Google, Facebook).
+   - **Profile Management**: Users can update profile information such as photos, preferences, and contact details.
 
-The backend supports the following features:
+### 2. **Property Listings Management**
+   - **Create Listings**: Hosts can add properties with details like title, description, location, and amenities.
+   - **Edit/Delete Listings**: Hosts can manage or remove their property listings.
 
-1. **User Management**
-   - User registration (guests and hosts).
-   - Login with secure authentication (JWT, OAuth).
-   - Profile management.
+### 3. **Search & Filtering**
+   - **Search Properties**: Guests can search for properties by location, price, number of guests, etc.
+   - **Filter Options**: Additional filters like pet-friendly, Wi-Fi, pool, etc.
+   - **Pagination**: For large data sets, results are paginated.
 
-2. **Property Listings Management**
-   - Add, edit, and delete property listings.
-   - Upload and manage property images.
+### 4. **Booking Management**
+   - **Create Bookings**: Guests can book properties for specified dates.
+   - **Booking Status**: Track booking status (pending, confirmed, canceled, etc.).
+   - **Booking Cancellation**: Both hosts and guests can cancel bookings based on policy.
 
-3. **Search and Filtering**
-   - Search properties by location, price range, amenities, and more.
-   - Pagination for large datasets.
+### 5. **Payment Integration**
+   - **Payment Gateway**: Integration with external services (e.g., Stripe, PayPal) for secure transactions.
+   - **Upfront Payment**: Guests make upfront payments for bookings.
+   - **Host Payouts**: Hosts receive automatic payouts after successful bookings.
 
-4. **Booking System**
-   - Booking creation with date validation.
-   - Booking cancellations and status tracking.
+### 6. **Reviews and Ratings**
+   - **Leave Reviews**: Guests can leave ratings and reviews for properties.
+   - **Respond to Reviews**: Hosts can respond to guest reviews.
+   - **Review Validation**: Ensure reviews are linked to actual bookings to prevent abuse.
 
-5. **Payments**
-   - Integration with Stripe/PayPal for secure transactions.
-   - Host payouts after bookings are completed.
+### 7. **Admin Dashboard**
+   - **User Management**: Admin can view and manage user accounts.
+   - **Monitor Listings**: Admin can oversee active property listings.
+   - **Booking Oversight**: Admin can monitor and manage bookings.
 
-6. **Reviews and Ratings**
-   - Guests can leave reviews for properties.
-   - Hosts can respond to reviews.
-
-7. **Notifications**
-   - Email and in-app notifications for bookings, payments, etc.
-
-8. **Admin Dashboard**
-   - Monitor and manage users, listings, bookings, and payments.
-
----
-
-## 🛠️ Technical Specifications
-
-- **Database:** PostgreSQL for relational data management.
-- **API:** RESTful APIs with optional GraphQL for complex queries.
-- **Authentication:** JSON Web Tokens (JWT) and role-based access control (RBAC).
-- **File Storage:** AWS S3/Cloudinary for images.
-- **Email Service:** SendGrid/Mailgun for notifications.
-- **Error Handling:** Global error handling with proper logging.
-fe
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- **Node.js** (v16+)
-- **PostgreSQL** (v13+)
-- **Stripe/PayPal account** for payment integration
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/alx-airbnb-project-documentation.git
-   cd alx-airbnb-project-documentation
+## Purpose
+This document provides a comprehensive overview of the backend features and is essential for both developers and project stakeholders. It defines what the backend needs to support to meet the application's functional and non-functional requirements.
