@@ -2,25 +2,25 @@
 
 ## 1. User Registration
 **As a guest or host,**  
-I want to be able to register an account using my email or OAuth (e.g., Google, Facebook),  
-So that I can create a profile and use the system to either book properties or list my own.
+I would like to have are the ability to sign up for an account using my email address or OAuth such as Google or Facebook.  
+In the event that I wish to book a property or list a property on the system, I need to create a profile first.
 
 ## 2. Property Search & Filter
 **As a guest,**  
-I want to search for properties based on location, price, and amenities,  
-So that I can easily find a property that meets my needs for booking.
+I would like to use the search functionality to narrow my selections by area, price, or additional features.  
+This is to help me quickly get an accommodation so that I can book it conveniently.
 
 ## 3. Property Listing Management
 **As a host,**  
-I want to be able to add, edit, or delete my property listings,  
-So that I can manage the properties I have available for booking and keep my listings up to date.
+This feature will allow me to create new property listings, edit or even remove them from the system.  
+For that purpose I need to track those properties which I have allowed for bookings and to make sure that the information is up-to-date.
 
 ## 4. Booking a Property
 **As a guest,**  
-I want to be able to book a property for my desired dates,  
-So that I can reserve a place to stay for my trip without conflicting bookings.
+I want to search and book a property of my preference for my preferred period.  
+Thus, I can book a room where I will be sleeping during my trip without having other bookings interfering with it.
 
 ## 5. Payment Processing
 **As a guest,**  
-I want to securely pay for my booking through integrated payment gateways (e.g., Stripe, PayPal),  
-So that I can complete my reservation with confidence, knowing that my payment is securely processed.
+I need to ensure that my payment for the booking can be done through integrated payment gateways that are secure and safe (for example, Stripe, PayPal).  
+Thus, that I can feel confident in fulfilling my reservation and that the payment will be processed safely.
